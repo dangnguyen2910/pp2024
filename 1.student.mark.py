@@ -57,9 +57,9 @@ class_list += [ict, ds, cs]
 ict+=[student1]
 
 course_list = []
-advanced_python = set_course(class_list)
-course_list += [advanced_python]
-input_marks(advanced_python, class_list)
+course1 = set_course(class_list)
+course_list += [course1]
+input_marks(course1, class_list)
 
 
 show_courses(course_list)
