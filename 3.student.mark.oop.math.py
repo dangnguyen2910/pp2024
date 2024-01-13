@@ -18,6 +18,9 @@ class Student:
     def get_dob(self):
         return self.__dob
 
+    def get_gpa(self):
+        return self.__gpa
+
     def cal_gpa(self, course_list):
         ects = mark = np.array([])
         for course in course_list:
@@ -30,10 +33,14 @@ class Student:
                     break
         self.__gpa = np.dot(mark,ects)/ np.sum(ects)
 
-
     def show_info(self):
             print(f"ID: {self.__id}\tName: {self.__name}\tDate of birth: {self.__dob}\tGPA: {self.__gpa}")
     
+    @staticmethod
+    def sort_student_list(student_list):
+        student_list = sorted(student_list, key=lambda student : student.get_gpa(), reverse=True)
+        return student_list
+
     @staticmethod
     def show_all(student_list):
         for student in student_list:
@@ -123,6 +130,7 @@ for _ in range (num_of_courses):
 for student in student_list:
     student.cal_gpa(course_list)
 
+student_list = Student.sort_student_list(student_list)
 
 Course.show_all(course_list)
 Student.show_all(student_list)
