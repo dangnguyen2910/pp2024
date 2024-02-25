@@ -1,0 +1,11 @@
+alias create bc !bc
+alias create egrep !egrep --color=auto
+alias create fgrep !fgrep --color=auto
+alias create grep !grep --color-auto
+alias create l ls -C
+alias create la ls -A
+alias create ll ls -alF
+alias create ls !ls --color=auto
+alias create ps !ps
+!clear
+greeting

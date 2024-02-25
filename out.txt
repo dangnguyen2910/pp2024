@@ -1,0 +1,19 @@
+total 72
+drwxrwxr-x 8 dangnguyen dangnguyen 4096 Feb 25 20:04 .
+drwxrwxr-x 4 dangnguyen dangnguyen 4096 Feb 21 14:57 ..
+-rw-rw-r-- 1 dangnguyen dangnguyen 1911 Jan  7 21:53 1.student.mark.py
+-rw-rw-r-- 1 dangnguyen dangnguyen 2553 Jan  9 09:34 2.student.mark.oop.py
+-rw-rw-r-- 1 dangnguyen dangnguyen 6765 Jan 19 13:32 3.student.mark.oop.math.py
+-rw-rw-r-- 1 dangnguyen dangnguyen  186 Feb 25 20:03 7.shell.py
+drwxrwxr-x 2 dangnguyen dangnguyen 4096 Jan 22 16:20 bin
+drwxrwxr-x 8 dangnguyen dangnguyen 4096 Feb 23 20:22 .git
+-rw-rw-r-- 1 dangnguyen dangnguyen   67 Jan  7 21:47 .gitignore
+drwxrwxr-x 3 dangnguyen dangnguyen 4096 Jan 22 16:20 lib
+-rw-rw-r-- 1 dangnguyen dangnguyen    0 Feb 25 20:04 out.txt
+drwxrwxr-x 4 dangnguyen dangnguyen 4096 Jan 19 15:18 pw4
+drwxrwxr-x 4 dangnguyen dangnguyen 4096 Feb 23 20:10 pw5
+drwxrwxr-x 4 dangnguyen dangnguyen 4096 Feb 24 11:45 pw6
+-rw-rw-r-- 1 dangnguyen dangnguyen  208 Jan  6 20:33 pyvenv.cfg
+-rwxrwxr-x 1 dangnguyen dangnguyen  104 Jan  3 15:06 README.md
+-rw-rw-r-- 1 dangnguyen dangnguyen   73 Feb 23 13:40 requirements.txt
+-rw-rw-r-- 1 dangnguyen dangnguyen  262 Feb 25 20:00 shell_start_up.txt
