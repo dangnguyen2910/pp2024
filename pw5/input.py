@@ -58,3 +58,5 @@ def decompression():
         os.remove("students.dat")
     except Exception:
         pass
+    finally:
+        file.close()
